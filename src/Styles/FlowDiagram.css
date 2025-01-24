@@ -1,0 +1,20 @@
+.step-button {
+    padding: 10px 20px;
+
+    border: none;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, rgb(196, 30, 218), blue) 1;
+}
+
+.step-button.active {
+    background-color: #8D0B93;
+    color: white;
+    transform: scale(1.2);
+    box-shadow: 0 0 30px #635454;
+    border: none;
+}

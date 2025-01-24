@@ -1,0 +1,6 @@
+.cardstyle {
+    background: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+    color: white;
+    box-shadow: 0 0 20px #635454;
+    border: none
+}
